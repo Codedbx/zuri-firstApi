@@ -38,7 +38,7 @@ app.get('/api', validateQueryParams, (req, res) => {
       current_day: currentDay,
       utc_time: currentUtcTime,
       track,
-      github_file_url: 'https://github.com/Codedbx/zuri-firstApi.git/server.js',
+      github_file_url: 'https://github.com/Codedbx/zuri-firstApi/blob/main/server.js',
       github_repo_url: 'https://github.com/Codedbx/zuri-firstApi',
       status_code: 200,
     };
